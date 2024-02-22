@@ -23,6 +23,6 @@ signOutButton.addEventListener("click", (e) => {
   console.log("clicked")
   
   auth.signOut()
-  alert("Signed Out")
-  window.location = "index.html";
+  alert("Redirecting To Shopping Cart")
+  window.location = "https://tayyab84.github.io/banoqabiladdtocart/";
 })
